@@ -1,24 +1,17 @@
-This simple script will help you to forward internet from your mobile sets connected via usb to the raspberry pi to the ethernet port.
+This script can help users to forward internet from interface to another.
 
-In short:
+Some usage:
+1. Sometimes you may want internet in your desktop which does not have wifi receiver & you do not have access to the wired hub, but your laptop has wifi.
+2. The hotspot internet that you are subscribed to may not have good signal all over your house. Connect to internet from your laptop/device/raspberry-pi/whatever and route the internet to your wireless router.
+3. The same f***ing hotspot does not allow more than one logins from same user. 
+4. You are using your neigbour's wifi? :D
 
-You can share your mobile internet to your router via raspberry pi.
-
-Modify the script according to your interfaces.
-
-Here:
-Wired port: eth0
-Mobile interface: usb0
-IP for raspberry pi: 172.18.0.1
-Subnet: 255.255.255.0 etc..
-
-You may want to change your interfaces.
+Bleh, run your imaginations wild. You may find various usage for it.
 
 
-Usage:
-The ip of raspberry pi will be 172.18.0.1
-You can connect to your pi with that ip.
-Usually useful in raspbmc.
-More useful if you don't have a wired internet but want to treat your pi with internet via tethering wifi or mobile data in the same time route the internet in your home too via a spare wireless router which you already have (assume :D)
-Other usage, find yourself.
-Bleh, this readme sucks :D
+My usage:
+Tethered mobile wifi to raspberry pi. --> Raspberry Pi gets internet.
+Rasberry pi forwards internet to wireless router via it's ethernet port.
+Internet all over my house.
+Raspberry pi is loaded with Raspbmc: XBMC ported to raspberry pi.
+All my devices are now connected to the wireless router, I can use my phone as remote for xbmc and share media from my laptop & mobile to the xbmc.
