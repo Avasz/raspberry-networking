@@ -15,3 +15,5 @@ Bleh, run your imaginations wild. You may find various usage for it.
 >Internet all over my house.
 >Raspberry pi is loaded with Raspbmc: XBMC ported to raspberry pi.
 >All my devices are now connected to the wireless router, I can use my phone as remote for xbmc and share media from my laptop & mobile to the xbmc.
+
+#HAPPY NETWORKING
