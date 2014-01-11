@@ -59,6 +59,7 @@ sed -i '13iifup $lan_iface' /etc/rc.local
 sed -i '14iifup $teth_iface' /etc/rc.local
 sed -i '15i/etc/init.d/isc-dhcp-server start' /etc/rc.local
 
+/etc/init.d/networking restart
 clear
 
-echo "Complete!!!"
+echo "Complete!!! If it does not work, reboot the system!!"
